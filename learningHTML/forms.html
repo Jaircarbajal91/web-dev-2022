@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Demo</title>
+</head>
+
+<body>
+  <h1>Differnt types of Inputs</h1>
+  <form action="/tacos">
+    <p>
+      <label for="text">Enter Username</label><br>
+      <input type="text" placeholder="Username" name="text" id="text"><br>
+    </p>
+    <p>
+      <label for="password">Enter Password</label><br>
+      <input type="password" placeholder="Password" name="password" id="password"><br>
+    </p>
+    <p>
+      <label for="color">Choose a color</label><br>
+      <input type="color" name="color" id="color"><br>
+    </p>
+    <p>
+      <label for="number">Enter a number</label><br>
+      <input type="number" placeholder="Enter a number" name="number" id="number"><br>
+    </p>
+    <p>
+      <label for="time">Choose a Time</label><br>
+      <input type="time" name="time" id="time"><br>
+    </p>
+    <p>
+      <label for="range">Enter Range</label><br>
+      <input type="range" name="range" id="range"><br>
+    </p>
+    <p>
+      <button>Submit</button>
+    </p>
+  </form>
+  <hr>
+  <h2>Hijacking Search Results</h2>
+  <h3>Google Search</h3>
+  <form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button>Search Google</button>
+  </form>
+  <h3>Youtube Search</h3>
+  <form action="https://www.youtube.com/results">
+    <input type="text" name="search_query">
+    <button>Search Youtube</button>
+  </form>
+  <hr>
+  <h2>Checkbox Inputs</h2>
+  <form action="/birds">
+    <input type="checkbox" name="agree_tos" id="agree">
+    <label for="agree">I totally agree!</label>
+    <button>Submit</button>
+  </form>
+  <hr>
+  <h2>Radio Inputs</h2>
+  <form action="/radio">
+    <p>Please Select Shirt Size</p>
+    <input type="radio" name="size" id="small" value="small">
+    <label for="small">Small</label>
+    <input type="radio" name="size" id="medium" value="medium">
+    <label for="medium">Medium</label>
+    <input type="radio" name="size" id="large" value="large">
+    <label for="large">Large</label><br><br>
+    <button>Submit Size</button>
+  </form>
+</body>
+
+</html>
