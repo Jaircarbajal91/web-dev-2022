@@ -72,14 +72,40 @@
   </form>
   <hr>
   <p>
-    <label for="meal">Please Select an Entree</label>
+    <label for="">Please Select an Entree</label>
     <select name="meal" id="meal">
+      <option value="">--Please choose an option--</option>
       <option value="fish">Fish</option>
       <option value="pasta">Pasta</option>
       <option value="steak">Steak</option>
       <option value="chicken">Chicken</option>
       <option value="soup">Soup</option>
     </select>
+  </p>
+  <hr>
+  <p>
+    <label for="cheese">Amount of cheese</label>
+    <input type="range" id="cheese" min="1" max="100" step="5" value="30">
+  <p>
+    <button>Submit</button>
+  </p>
+  </p>
+  <hr>
+  <p>
+    <label for="request">Any special requests?</label><br><br>
+    <textarea name="Requests?" id="request" cols="30" rows="10"
+      placeholder="Please submit a special request"></textarea><br><br>
+    <button>Submit</button>
+  </p>
+  <hr>
+  <p>
+  <form action="/dummy">
+    <label for="first">Enter First Name</label><br>
+    <input type="text" name="first" id="first" required><br>
+    <label for="username"></label>
+    <input type="text" name="username" id="username" minlength="5" maxlength="20" required><br>
+    <button>Submit</button>
+  </form>
   </p>
 </body>
 
