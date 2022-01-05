@@ -40,3 +40,10 @@
 This also works
 
 `<input type="submit" value="Click Me!">`
+
+## Validations
+  - Refers to adding constraints or requiring that some feilds cant be empty.
+  - IE - passwords must be a certain length, certain characters, etc..
+  - Can be server side or client side.
+  - `required` attribute is an example of a built in validations
+  - There are other validation types like `email`, `url`, `telephone`
