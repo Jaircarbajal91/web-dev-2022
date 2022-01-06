@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 15px;
+  text-decoration: underline dotted greenyellow;
+  font-family: serif;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
