@@ -19,7 +19,7 @@
 
  - The form element "represents a document section containing interactive controls for submitting information"
  - The *action* attribute specifies WHERE the form data should be sent.
- - The method attribute specifies which HTTP method should be used.
+ - The method attribute specifies which HTTP method should be used `get`, `set`, `post`, etc...
 
 ## Inputs
  - `<input>` - The input element is used to create a variety of different form controls.
