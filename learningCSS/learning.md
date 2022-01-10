@@ -91,3 +91,55 @@
     `.a {`<br>
       `color: firebrick !important;`<br>
     `}`<br>
+
+  # The Box Model
+  - The idea that everything in CSS is a box
+
+  ## Width & Height
+  - Set the width and height of the inner content area
+
+  ## Border
+  - They make it clear to the user what something does.
+  - Pixes are generally used for borders
+
+  ## Padding
+  - Space between the content and the border.
+  - Think of it like a shippement, the padding would be the bubble wrap
+
+  ## Margin
+  - The space outside of the border
+  - Short hand `margin`
+
+  ## Display Property
+  - `inline`, `block`, `inline-block` These behave different with padding and margins.
+  - Margins are respected horizontally on the line that it is inline with.
+  - If an element is inline, width is ignored and height is ignored.
+  - `inline-block` - This would make width and hieght be respected with your inline element.
+
+  ## Units - Percentages, ems & rems
+  - Relative vs absolutes. These are relative units
+  - Percentages will take up a specific space of the parent
+  - `ems` - Are relative units. With font-size. 1em equals the font-size of the parent. 2em's is twice the font-size of the parent, etc.
+  - With other properties, 1em is equal to the computed font-size of the element itself.
+  - One of the short commings with ems is that it will take inherits from its parent element.
+  - `rems` ROOT - Relative to the root html element's font-size. Often easier to work with.
+  - If the root font-size is 20px, 1 rem is always 20px, 2rem is always 40px, etc.
+
+  # CSS Properties
+
+  ## Opacity & Transparency
+  - rgba() - this is how you set an elements transparency
+    - You can also use hexadicimals
+  - opacity - this is how you set an elements opacity
+  - The difference between the two is that opacity will change all contents in the element. Including nested elements.
+
+  ## Position
+  - MDN - The postion CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties dertermine the final location of positioned elements.
+  - [Position MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+
+  ## Transitions
+  - [Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+  - [Easing Functions](https://easings.net/)
+
+  ## Transform
+  - [Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
