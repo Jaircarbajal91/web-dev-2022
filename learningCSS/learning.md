@@ -81,4 +81,13 @@
   ## Specificity
   - What happens when conflicting styles target the same elements?
   - Specificity is how the browser decides which rules to apply when multiple rules could apply to the same element.
-  - It is a measure of how specific a given selector is. The more specific selector "wins"
+  - It is a measure of how specific a given selector is. The more specific selector "wins".
+  - id > class > element - This is what would be selected.
+  - There is a score of how CSS will decide which element to select.
+  - It only applies when there is a conflict.
+  - Inline styles in HTML takes precedence over all styles.
+  - `!important` signals to the browser that this is is the most important and should take precedence over all selectors <br>
+  - Don't use it.. Its too heavy.
+    `.a {`<br>
+      `color: firebrick !important;`<br>
+    `}`<br>
