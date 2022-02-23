@@ -34,6 +34,7 @@ ul {
   nav, nav ul {
     flex-direction: column;
     align-items: center;
+    font-size: 1em;
   }
 }
 @media (max-width: 576px) {
